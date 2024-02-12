@@ -1,0 +1,73 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "repulo",
+    "dateExported": "2023-11-15T19:25:52.816Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f0faad7e-3ea4-4464-9bb5-25715fe35ab0",
+            "colId": "c5dbca37-6cb9-48b6-a9ec-cc9dd52b3805",
+            "containerId": "",
+            "name": "get_airlines",
+            "url": "http://localhost:8000/api/airlines",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-15T19:05:02.136Z",
+            "modified": "2023-11-15T19:05:49.453Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0910929b-ed00-4aa8-b8eb-e9ea1ec7a41c",
+            "colId": "c5dbca37-6cb9-48b6-a9ec-cc9dd52b3805",
+            "containerId": "",
+            "name": "post_airlines",
+            "url": "http://localhost:8000/api/airlines?name=Béla&country=Magyarország",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-11-15T19:12:02.257Z",
+            "modified": "2023-11-15T19:13:15.833Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "name",
+                    "value": "Béla",
+                    "isPath": false
+                },
+                {
+                    "name": "country",
+                    "value": "Magyarország",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "b5b7075e-389d-4e92-9e8b-e0531b9dfa9f",
+            "colId": "c5dbca37-6cb9-48b6-a9ec-cc9dd52b3805",
+            "containerId": "",
+            "name": "put_airlines",
+            "url": "http://localhost:8000/api/airlines/1?name=Benedek&country=Magyarország",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-11-15T19:18:19.232Z",
+            "modified": "2023-11-15T19:19:30.836Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "name",
+                    "value": "Benedek",
+                    "isPath": false
+                },
+                {
+                    "name": "country",
+                    "value": "Magyarország",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}
